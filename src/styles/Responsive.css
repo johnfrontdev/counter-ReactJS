@@ -1,0 +1,33 @@
+@media (max-width: 650px) {
+    .headerTitle{
+        letter-spacing: 2px !important;
+    }
+    .clock p {
+        letter-spacing: 2.5px !important;
+    }
+    .counter {
+        flex-direction: column;
+    }
+
+    .buttons-counter {
+        flex-direction: row;
+        margin-top: 1rem;
+    }
+
+    .counter {
+        width: 90%;
+    }
+    .clock {
+        width: 90% !important;
+    }
+
+    .clock p {
+        font-size: 3.4rem !important;
+    }
+
+    .buttons-counter button {
+        margin: 6px 4px !important;
+    }
+
+
+}
